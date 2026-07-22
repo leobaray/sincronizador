@@ -1,0 +1,45 @@
+# ── Python ──────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ── Virtual environments ────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── Packaging / build ───────────────────────────────────────────────
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+pip-wheel-metadata/
+# NOTE: Sincronizador.spec is committed on purpose (build recipe) — do NOT ignore *.spec
+
+# ── Test / lint / type caches ───────────────────────────────────────
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# ── Secrets & runtime config ────────────────────────────────────────
+# config.json holds the server password hash and/or the client host + folder pairs
+config.json
+.env
+.env.*
+
+# ── Logs ────────────────────────────────────────────────────────────
+*.log
+
+# ── Editors / OS ────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
